@@ -6,11 +6,9 @@
 /*   By: yaidriss <yaidriss@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 20:52:25 by yaidriss          #+#    #+#             */
-/*   Updated: 2022/10/25 20:53:02 by yaidriss         ###   ########.fr       */
+/*   Updated: 2022/10/25 21:56:06 by yaidriss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "get_next_line.h"
 
 #include "get_next_line.h"
 
