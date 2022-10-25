@@ -6,7 +6,7 @@
 /*   By: yaidriss <yaidriss@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 20:35:50 by yaidriss          #+#    #+#             */
-/*   Updated: 2022/10/25 20:44:11 by yaidriss         ###   ########.fr       */
+/*   Updated: 2022/10/25 22:39:04 by yaidriss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,7 @@ typedef struct l_get
 	int		indx;
 	char	*data;
 	char	*line;
-	char	*next;
 	char	*part;
-	int		end;
-	int		pass;
 }t_get;
 
 char	*get_next_line(int fd);

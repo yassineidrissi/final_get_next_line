@@ -6,7 +6,7 @@
 /*   By: yaidriss <yaidriss@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 20:36:24 by yaidriss          #+#    #+#             */
-/*   Updated: 2022/10/25 22:31:12 by yaidriss         ###   ########.fr       */
+/*   Updated: 2022/10/25 22:44:49 by yaidriss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ char	*get_next_line(int fd)
 	line.data = ft_calloc(BUFFER_SIZE + 1, 1);
 	if (!line.data)
 		return (NULL);
-	while (ft_strchr(line.line) != 1 && read(fd, line.data, BUFFER_SIZE) > 0)
+	while (ft_strchr(line.line) == -1 && read(fd, line.data, BUFFER_SIZE) > 0)
 	{
 		if (ft_strchr(line.data) == -1)
 			line.line = ft_my_strjoin(line.line, line.data, 0);
